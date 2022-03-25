@@ -1,0 +1,12 @@
+header {
+  width: auto;
+  height: 100px;
+  background-color: $bgcolor2;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

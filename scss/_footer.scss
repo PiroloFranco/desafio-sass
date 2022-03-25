@@ -1,0 +1,20 @@
+footer {
+  background-color: $bgcolor4;
+  width: auto;
+  height: auto;
+  text-align: center;
+  li {
+    display: inline-block;
+    padding: 20px;
+    a {
+      text-decoration: none;
+      color: $bgcolor1;
+      &:hover {
+        color: $bgcolor2;
+      }
+    }
+  }
+  small {
+    color: $bgcolor1;
+  }
+}

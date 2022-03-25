@@ -1,0 +1,18 @@
+nav {
+  width: auto;
+  text-align: center;
+  background-color: $bgcolor4;
+  li {
+    display: inline-block;
+    padding: 15px 30px;
+    a {
+      color: $bgcolor1;
+      text-decoration: none;
+      &:hover {
+        color: $bgcolor2;
+        transition: transform 0.3s;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
